@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DECA30F525FEFBE000F94C8C /* APIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECA30F525FEFBE000F94C8C /* KakaoSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaoSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECA30F825FEFBE000F94C8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DECA30FA25FEFBE000F94C8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DECA30FC25FEFBE000F94C8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		DECA30EC25FEFBDF00F94C8C = {
 			isa = PBXGroup;
 			children = (
-				DECA30F725FEFBE000F94C8C /* APIDemo */,
+				DECA30F725FEFBE000F94C8C /* KakaoSearch */,
 				DECA30F625FEFBE000F94C8C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		DECA30F625FEFBE000F94C8C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DECA30F525FEFBE000F94C8C /* APIDemo.app */,
+				DECA30F525FEFBE000F94C8C /* KakaoSearch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DECA30F725FEFBE000F94C8C /* APIDemo */ = {
+		DECA30F725FEFBE000F94C8C /* KakaoSearch */ = {
 			isa = PBXGroup;
 			children = (
 				DECA30F825FEFBE000F94C8C /* AppDelegate.swift */,
@@ -70,15 +70,15 @@
 				DECA310925FEFBE100F94C8C /* Info.plist */,
 				DECA310125FEFBE000F94C8C /* APIDemo.xcdatamodeld */,
 			);
-			path = APIDemo;
+			path = KakaoSearch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DECA30F425FEFBE000F94C8C /* APIDemo */ = {
+		DECA30F425FEFBE000F94C8C /* KakaoSearch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DECA310C25FEFBE100F94C8C /* Build configuration list for PBXNativeTarget "APIDemo" */;
+			buildConfigurationList = DECA310C25FEFBE100F94C8C /* Build configuration list for PBXNativeTarget "KakaoSearch" */;
 			buildPhases = (
 				DECA30F125FEFBE000F94C8C /* Sources */,
 				DECA30F225FEFBE000F94C8C /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = APIDemo;
+			name = KakaoSearch;
 			productName = APIDemo;
-			productReference = DECA30F525FEFBE000F94C8C /* APIDemo.app */;
+			productReference = DECA30F525FEFBE000F94C8C /* KakaoSearch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DECA30F025FEFBDF00F94C8C /* Build configuration list for PBXProject "APIDemo" */;
+			buildConfigurationList = DECA30F025FEFBDF00F94C8C /* Build configuration list for PBXProject "KakaoSearch" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DECA30F425FEFBE000F94C8C /* APIDemo */,
+				DECA30F425FEFBE000F94C8C /* KakaoSearch */,
 			);
 		};
 /* End PBXProject section */
@@ -296,7 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9667HQFPGB;
-				INFOPLIST_FILE = APIDemo/Info.plist;
+				INFOPLIST_FILE = KakaoSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9667HQFPGB;
-				INFOPLIST_FILE = APIDemo/Info.plist;
+				INFOPLIST_FILE = KakaoSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DECA30F025FEFBDF00F94C8C /* Build configuration list for PBXProject "APIDemo" */ = {
+		DECA30F025FEFBDF00F94C8C /* Build configuration list for PBXProject "KakaoSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DECA310A25FEFBE100F94C8C /* Debug */,
@@ -339,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DECA310C25FEFBE100F94C8C /* Build configuration list for PBXNativeTarget "APIDemo" */ = {
+		DECA310C25FEFBE100F94C8C /* Build configuration list for PBXNativeTarget "KakaoSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DECA310D25FEFBE100F94C8C /* Debug */,
