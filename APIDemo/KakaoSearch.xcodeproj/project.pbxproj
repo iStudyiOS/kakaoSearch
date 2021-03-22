@@ -29,7 +29,6 @@
 		1C986D752601ED9400F76168 /* kakaoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoAPI.swift; sourceTree = "<group>"; };
 		D4698CA32608AC460053866A /* KakaoSearcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoSearcher.swift; sourceTree = "<group>"; };
 		D4698CA62608AEB30053866A /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
-		D4698CB92608EE4B0053866A /* APIKey.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = APIKey.xcconfig; sourceTree = "<group>"; };
 		D4698CBC2608EF670053866A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DECA30F525FEFBE000F94C8C /* KakaoSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaoSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECA30F825FEFBE000F94C8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -106,7 +105,6 @@
 				DECA310625FEFBE100F94C8C /* LaunchScreen.storyboard */,
 				DECA310925FEFBE100F94C8C /* Info.plist */,
 				DECA310125FEFBE000F94C8C /* KakaoSearch.xcdatamodeld */,
-				D4698CB92608EE4B0053866A /* APIKey.xcconfig */,
 			);
 			path = KakaoSearch;
 			sourceTree = "<group>";
@@ -341,7 +339,6 @@
 		};
 		DECA310D25FEFBE100F94C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4698CB92608EE4B0053866A /* APIKey.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -367,7 +364,6 @@
 		};
 		DECA310E25FEFBE100F94C8C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4698CB92608EE4B0053866A /* APIKey.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
