@@ -67,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				D4698CA62608AEB30053866A /* SearchResult.swift */,
+				1C986D752601ED9400F76168 /* kakaoAPI.swift */,
 				D4698CBC2608EF670053866A /* Constants.swift */,
 			);
 			path = Model;
@@ -102,7 +103,6 @@
 				DECA310625FEFBE100F94C8C /* LaunchScreen.storyboard */,
 				DECA310925FEFBE100F94C8C /* Info.plist */,
 				DECA310125FEFBE000F94C8C /* KakaoSearch.xcdatamodeld */,
-				1C986D752601ED9400F76168 /* kakaoAPI.swift */,
 				D4698CB92608EE4B0053866A /* APIKey.xcconfig */,
 			);
 			path = KakaoSearch;
