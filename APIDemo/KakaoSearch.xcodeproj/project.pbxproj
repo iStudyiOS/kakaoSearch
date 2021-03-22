@@ -11,6 +11,7 @@
 		1C986D762601ED9400F76168 /* kakaoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C986D752601ED9400F76168 /* kakaoAPI.swift */; };
 		1C986D7A2601EE0A00F76168 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1C986D792601EE0A00F76168 /* Alamofire */; };
 		1C986D7E2601F3D600F76168 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 1C986D7D2601F3D600F76168 /* Moya */; };
+		D4698CA42608AC460053866A /* KakaoSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4698CA32608AC460053866A /* KakaoSearcher.swift */; };
 		D4698CA72608AEB30053866A /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4698CA62608AEB30053866A /* SearchResult.swift */; };
 		D4698CBD2608EF670053866A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4698CBC2608EF670053866A /* Constants.swift */; };
 		DECA30F925FEFBE000F94C8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA30F825FEFBE000F94C8C /* AppDelegate.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		1C986D6E2601EB7200F76168 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
 		1C986D752601ED9400F76168 /* kakaoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoAPI.swift; sourceTree = "<group>"; };
+		D4698CA32608AC460053866A /* KakaoSearcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoSearcher.swift; sourceTree = "<group>"; };
 		D4698CA62608AEB30053866A /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		D4698CB92608EE4B0053866A /* APIKey.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = APIKey.xcconfig; sourceTree = "<group>"; };
 		D4698CBC2608EF670053866A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		D4698CA92608B18D0053866A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D4698CA32608AC460053866A /* KakaoSearcher.swift */,
 				D4698CA62608AEB30053866A /* SearchResult.swift */,
 				1C986D752601ED9400F76168 /* kakaoAPI.swift */,
 				D4698CBC2608EF670053866A /* Constants.swift */,
@@ -190,6 +193,7 @@
 				DECA30FD25FEFBE000F94C8C /* ViewController.swift in Sources */,
 				D4698CA72608AEB30053866A /* SearchResult.swift in Sources */,
 				1C986D762601ED9400F76168 /* kakaoAPI.swift in Sources */,
+				D4698CA42608AC460053866A /* KakaoSearcher.swift in Sources */,
 				DECA30F925FEFBE000F94C8C /* AppDelegate.swift in Sources */,
 				DECA30FB25FEFBE000F94C8C /* SceneDelegate.swift in Sources */,
 				DECA310325FEFBE000F94C8C /* KakaoSearch.xcdatamodeld in Sources */,
