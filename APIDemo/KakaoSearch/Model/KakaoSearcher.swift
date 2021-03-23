@@ -25,7 +25,7 @@ final class KakaoSearcher: KakaoSearchable {
             switch result {
             case .success(let response):
                 guard let searchResponse = try? JSONDecoder().decode(T.self, from: response.data) else {
-                    print("KakaoSearcher:", "Decode Error!")
+                    print("KakaoSearcher:", "Decode Error!\n \(String(data: response.data, encoding: .utf8))")
                     return
                 }
                 completion?(searchResponse)
