@@ -11,6 +11,10 @@
 		1C986D762601ED9400F76168 /* kakaoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C986D752601ED9400F76168 /* kakaoAPI.swift */; };
 		1C986D7A2601EE0A00F76168 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1C986D792601EE0A00F76168 /* Alamofire */; };
 		1C986D7E2601F3D600F76168 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 1C986D7D2601F3D600F76168 /* Moya */; };
+		D4698CA42608AC460053866A /* KakaoSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4698CA32608AC460053866A /* KakaoSearcher.swift */; };
+		D4698CA72608AEB30053866A /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4698CA62608AEB30053866A /* SearchResult.swift */; };
+		D4698CBD2608EF670053866A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4698CBC2608EF670053866A /* Constants.swift */; };
+		D49ACDD326098D3E0080D9B3 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = D49ACDD226098D3E0080D9B3 /* APIKey.plist */; };
 		DECA30F925FEFBE000F94C8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA30F825FEFBE000F94C8C /* AppDelegate.swift */; };
 		DECA30FB25FEFBE000F94C8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA30FA25FEFBE000F94C8C /* SceneDelegate.swift */; };
 		DECA30FD25FEFBE000F94C8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA30FC25FEFBE000F94C8C /* ViewController.swift */; };
@@ -24,6 +28,10 @@
 /* Begin PBXFileReference section */
 		1C986D6E2601EB7200F76168 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
 		1C986D752601ED9400F76168 /* kakaoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoAPI.swift; sourceTree = "<group>"; };
+		D4698CA32608AC460053866A /* KakaoSearcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoSearcher.swift; sourceTree = "<group>"; };
+		D4698CA62608AEB30053866A /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		D4698CBC2608EF670053866A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D49ACDD226098D3E0080D9B3 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
 		DECA30F525FEFBE000F94C8C /* KakaoSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaoSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECA30F825FEFBE000F94C8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DECA30FA25FEFBE000F94C8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +66,17 @@
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
+		D4698CA92608B18D0053866A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4698CA32608AC460053866A /* KakaoSearcher.swift */,
+				D4698CA62608AEB30053866A /* SearchResult.swift */,
+				1C986D752601ED9400F76168 /* kakaoAPI.swift */,
+				D4698CBC2608EF670053866A /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DECA30EC25FEFBDF00F94C8C = {
 			isa = PBXGroup;
 			children = (
@@ -82,12 +101,13 @@
 				DECA30FA25FEFBE000F94C8C /* SceneDelegate.swift */,
 				DECA30FC25FEFBE000F94C8C /* ViewController.swift */,
 				DECA30FE25FEFBE000F94C8C /* Main.storyboard */,
+				D4698CA92608B18D0053866A /* Model */,
 				DECA311126004A3500F94C8C /* ImgCell.swift */,
 				DECA310425FEFBE100F94C8C /* Assets.xcassets */,
 				DECA310625FEFBE100F94C8C /* LaunchScreen.storyboard */,
 				DECA310925FEFBE100F94C8C /* Info.plist */,
 				DECA310125FEFBE000F94C8C /* KakaoSearch.xcdatamodeld */,
-				1C986D752601ED9400F76168 /* kakaoAPI.swift */,
+				D49ACDD226098D3E0080D9B3 /* APIKey.plist */,
 			);
 			path = KakaoSearch;
 			sourceTree = "<group>";
@@ -158,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DECA310825FEFBE100F94C8C /* LaunchScreen.storyboard in Resources */,
+				D49ACDD326098D3E0080D9B3 /* APIKey.plist in Resources */,
 				DECA310525FEFBE100F94C8C /* Assets.xcassets in Resources */,
 				DECA310025FEFBE000F94C8C /* Main.storyboard in Resources */,
 			);
@@ -172,10 +193,13 @@
 			files = (
 				DECA311226004A3600F94C8C /* ImgCell.swift in Sources */,
 				DECA30FD25FEFBE000F94C8C /* ViewController.swift in Sources */,
+				D4698CA72608AEB30053866A /* SearchResult.swift in Sources */,
 				1C986D762601ED9400F76168 /* kakaoAPI.swift in Sources */,
+				D4698CA42608AC460053866A /* KakaoSearcher.swift in Sources */,
 				DECA30F925FEFBE000F94C8C /* AppDelegate.swift in Sources */,
 				DECA30FB25FEFBE000F94C8C /* SceneDelegate.swift in Sources */,
 				DECA310325FEFBE000F94C8C /* KakaoSearch.xcdatamodeld in Sources */,
+				D4698CBD2608EF670053866A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

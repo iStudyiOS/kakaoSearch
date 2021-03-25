@@ -13,6 +13,11 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        KakaoSearcher.shared.search(query: "말티즈") { (response: APIResponse) in
+            for searchResult in response.documents {
+                print(searchResult.thumbnailURL)
+            }
+        }
     }
 
     

@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       
     let window = UIWindow(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
     
-    CallKakaoAPI().search()
+//    CallKakaoAPI().search()
     
     self.window = window
     return true
