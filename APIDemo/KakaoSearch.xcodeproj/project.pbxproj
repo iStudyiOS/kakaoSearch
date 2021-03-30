@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		1C986D6F2601EB7200F76168 /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C986D6E2601EB7200F76168 /* KakaoOpenSDK.framework */; };
 		1C986D762601ED9400F76168 /* kakaoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C986D752601ED9400F76168 /* kakaoAPI.swift */; };
-		1C986D7A2601EE0A00F76168 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1C986D792601EE0A00F76168 /* Alamofire */; };
-		1C986D7E2601F3D600F76168 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 1C986D7D2601F3D600F76168 /* Moya */; };
+		1C986D7A2601EE0A00F76168 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 1C986D792601EE0A00F76168 /* SwiftPackageProductDependency */; };
+		1C986D7E2601F3D600F76168 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 1C986D7D2601F3D600F76168 /* SwiftPackageProductDependency */; };
+		C3FE752CA74D017A77F761E7 /* Pods_KakaoSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F06A78907976132ED82F09 /* Pods_KakaoSearch.framework */; };
 		D43AA83C2611CD6800327175 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43AA83B2611CD6800327175 /* ImageDetailViewController.swift */; };
 		D4698CA42608AC460053866A /* KakaoSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4698CA32608AC460053866A /* KakaoSearcher.swift */; };
 		D4698CA72608AEB30053866A /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4698CA62608AEB30053866A /* SearchResult.swift */; };
@@ -29,6 +30,8 @@
 /* Begin PBXFileReference section */
 		1C986D6E2601EB7200F76168 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
 		1C986D752601ED9400F76168 /* kakaoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoAPI.swift; sourceTree = "<group>"; };
+		62F06A78907976132ED82F09 /* Pods_KakaoSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KakaoSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		712C1B008E51F988F3595ADA /* Pods-KakaoSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakaoSearch.debug.xcconfig"; path = "Target Support Files/Pods-KakaoSearch/Pods-KakaoSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		D43AA83B2611CD6800327175 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
 		D4698CA32608AC460053866A /* KakaoSearcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoSearcher.swift; sourceTree = "<group>"; };
 		D4698CA62608AEB30053866A /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		DECA310725FEFBE100F94C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DECA310925FEFBE100F94C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DECA311126004A3500F94C8C /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA6E8735EC08B764A7F43ED7 /* Pods-KakaoSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakaoSearch.release.xcconfig"; path = "Target Support Files/Pods-KakaoSearch/Pods-KakaoSearch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C986D6F2601EB7200F76168 /* KakaoOpenSDK.framework in Frameworks */,
-				1C986D7A2601EE0A00F76168 /* Alamofire in Frameworks */,
-				1C986D7E2601F3D600F76168 /* Moya in Frameworks */,
+				1C986D7A2601EE0A00F76168 /* BuildFile in Frameworks */,
+				1C986D7E2601F3D600F76168 /* BuildFile in Frameworks */,
+				C3FE752CA74D017A77F761E7 /* Pods_KakaoSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,8 +69,19 @@
 			isa = PBXGroup;
 			children = (
 				1C986D6E2601EB7200F76168 /* KakaoOpenSDK.framework */,
+				62F06A78907976132ED82F09 /* Pods_KakaoSearch.framework */,
 			);
 			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2839EE28B77061D9B2DC146 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				712C1B008E51F988F3595ADA /* Pods-KakaoSearch.debug.xcconfig */,
+				FA6E8735EC08B764A7F43ED7 /* Pods-KakaoSearch.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		D4698CA92608B18D0053866A /* Model */ = {
@@ -104,6 +120,7 @@
 				DECA30F725FEFBE000F94C8C /* KakaoSearch */,
 				1C986D712601EBBA00F76168 /* Frameworks */,
 				DECA30F625FEFBE000F94C8C /* Products */,
+				A2839EE28B77061D9B2DC146 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DECA310C25FEFBE100F94C8C /* Build configuration list for PBXNativeTarget "KakaoSearch" */;
 			buildPhases = (
+				E78C5B95A7B9F7826490C7E6 /* [CP] Check Pods Manifest.lock */,
 				DECA30F125FEFBE000F94C8C /* Sources */,
 				DECA30F225FEFBE000F94C8C /* Frameworks */,
 				DECA30F325FEFBE000F94C8C /* Resources */,
+				A2CE084664EB07DFD46CD752 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,8 +167,8 @@
 			);
 			name = KakaoSearch;
 			packageProductDependencies = (
-				1C986D792601EE0A00F76168 /* Alamofire */,
-				1C986D7D2601F3D600F76168 /* Moya */,
+				1C986D792601EE0A00F76168 /* SwiftPackageProductDependency */,
+				1C986D7D2601F3D600F76168 /* SwiftPackageProductDependency */,
 			);
 			productName = APIDemo;
 			productReference = DECA30F525FEFBE000F94C8C /* KakaoSearch.app */;
@@ -179,8 +198,8 @@
 			);
 			mainGroup = DECA30EC25FEFBDF00F94C8C;
 			packageReferences = (
-				1C986D782601EE0A00F76168 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				1C986D7C2601F3D600F76168 /* XCRemoteSwiftPackageReference "Moya" */,
+				1C986D782601EE0A00F76168 /* RemoteSwiftPackageReference */,
+				1C986D7C2601F3D600F76168 /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = DECA30F625FEFBE000F94C8C /* Products */;
 			projectDirPath = "";
@@ -204,6 +223,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2CE084664EB07DFD46CD752 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KakaoSearch/Pods-KakaoSearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KakaoSearch/Pods-KakaoSearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KakaoSearch/Pods-KakaoSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E78C5B95A7B9F7826490C7E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KakaoSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DECA30F125FEFBE000F94C8C /* Sources */ = {
@@ -363,6 +424,7 @@
 		};
 		DECA310D25FEFBE100F94C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 712C1B008E51F988F3595ADA /* Pods-KakaoSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -388,6 +450,7 @@
 		};
 		DECA310E25FEFBE100F94C8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA6E8735EC08B764A7F43ED7 /* Pods-KakaoSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -435,7 +498,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1C986D782601EE0A00F76168 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		1C986D782601EE0A00F76168 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
 			requirement = {
@@ -443,7 +506,7 @@
 				minimumVersion = 5.4.1;
 			};
 		};
-		1C986D7C2601F3D600F76168 /* XCRemoteSwiftPackageReference "Moya" */ = {
+		1C986D7C2601F3D600F76168 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Moya/Moya";
 			requirement = {
@@ -454,14 +517,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1C986D792601EE0A00F76168 /* Alamofire */ = {
+		1C986D792601EE0A00F76168 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1C986D782601EE0A00F76168 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 1C986D782601EE0A00F76168 /* RemoteSwiftPackageReference */;
 			productName = Alamofire;
 		};
-		1C986D7D2601F3D600F76168 /* Moya */ = {
+		1C986D7D2601F3D600F76168 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1C986D7C2601F3D600F76168 /* XCRemoteSwiftPackageReference "Moya" */;
+			package = 1C986D7C2601F3D600F76168 /* RemoteSwiftPackageReference */;
 			productName = Moya;
 		};
 /* End XCSwiftPackageProductDependency section */

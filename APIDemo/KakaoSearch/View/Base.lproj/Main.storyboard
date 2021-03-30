@@ -56,6 +56,9 @@
                                 <state key="normal">
                                     <imageReference key="image" image="square.and.arrow.up" catalog="system" symbolScale="large" renderingMode="original"/>
                                 </state>
+                                <connections>
+                                    <action selector="shareButton:" destination="GVs-M2-s8O" eventType="touchUpInside" id="RUF-IJ-hVB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qpP-zP-eJk"/>

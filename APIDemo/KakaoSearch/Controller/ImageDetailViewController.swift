@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import TUSafariActivity
 
 class ImageDetailViewController: UIViewController {
     
@@ -30,6 +31,19 @@ class ImageDetailViewController: UIViewController {
                 self.imageView.image = image
             }
         }
+    }
+    
+    @IBAction func shareButton(_ sender: Any) {
+        let docUrl = NSURL(string: item!.docURL)
+        let url = URL(string: item!.thumbnailURL)
+        let data = try? Data(contentsOf: url!)
+        let image = UIImage(data: data!)
+        let obj: [Any] = [image!, docUrl!]
+        
+        let activity = TUSafariActivity()
+        let activityViewController = UIActivityViewController(activityItems: obj, applicationActivities: [activity])
+        activityViewController.popoverPresentationController?.sourceView = self.view
+        self.present(activityViewController, animated: true, completion: nil)
     }
     
     @IBAction func touchedCloseButton(_ sender: Any) {
