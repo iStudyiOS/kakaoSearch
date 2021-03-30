@@ -11,23 +11,25 @@
 		1C986D762601ED9400F76168 /* kakaoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C986D752601ED9400F76168 /* kakaoAPI.swift */; };
 		1C986D7A2601EE0A00F76168 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1C986D792601EE0A00F76168 /* Alamofire */; };
 		1C986D7E2601F3D600F76168 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 1C986D7D2601F3D600F76168 /* Moya */; };
+		D43AA83C2611CD6800327175 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43AA83B2611CD6800327175 /* ImageDetailViewController.swift */; };
 		D4698CA42608AC460053866A /* KakaoSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4698CA32608AC460053866A /* KakaoSearcher.swift */; };
 		D4698CA72608AEB30053866A /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4698CA62608AEB30053866A /* SearchResult.swift */; };
 		D4698CBD2608EF670053866A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4698CBC2608EF670053866A /* Constants.swift */; };
 		D49ACDD326098D3E0080D9B3 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = D49ACDD226098D3E0080D9B3 /* APIKey.plist */; };
 		DECA30F925FEFBE000F94C8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA30F825FEFBE000F94C8C /* AppDelegate.swift */; };
 		DECA30FB25FEFBE000F94C8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA30FA25FEFBE000F94C8C /* SceneDelegate.swift */; };
-		DECA30FD25FEFBE000F94C8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA30FC25FEFBE000F94C8C /* ViewController.swift */; };
+		DECA30FD25FEFBE000F94C8C /* ImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA30FC25FEFBE000F94C8C /* ImageCollectionViewController.swift */; };
 		DECA310025FEFBE000F94C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECA30FE25FEFBE000F94C8C /* Main.storyboard */; };
 		DECA310325FEFBE000F94C8C /* KakaoSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DECA310125FEFBE000F94C8C /* KakaoSearch.xcdatamodeld */; };
 		DECA310525FEFBE100F94C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECA310425FEFBE100F94C8C /* Assets.xcassets */; };
 		DECA310825FEFBE100F94C8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECA310625FEFBE100F94C8C /* LaunchScreen.storyboard */; };
-		DECA311226004A3600F94C8C /* ImgCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA311126004A3500F94C8C /* ImgCell.swift */; };
+		DECA311226004A3600F94C8C /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA311126004A3500F94C8C /* ImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C986D6E2601EB7200F76168 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
 		1C986D752601ED9400F76168 /* kakaoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoAPI.swift; sourceTree = "<group>"; };
+		D43AA83B2611CD6800327175 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
 		D4698CA32608AC460053866A /* KakaoSearcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoSearcher.swift; sourceTree = "<group>"; };
 		D4698CA62608AEB30053866A /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		D4698CBC2608EF670053866A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -35,13 +37,13 @@
 		DECA30F525FEFBE000F94C8C /* KakaoSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaoSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECA30F825FEFBE000F94C8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DECA30FA25FEFBE000F94C8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DECA30FC25FEFBE000F94C8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DECA30FC25FEFBE000F94C8C /* ImageCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewController.swift; sourceTree = "<group>"; };
 		DECA30FF25FEFBE000F94C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DECA310225FEFBE000F94C8C /* APIDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = APIDemo.xcdatamodel; sourceTree = "<group>"; };
 		DECA310425FEFBE100F94C8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DECA310725FEFBE100F94C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DECA310925FEFBE100F94C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DECA311126004A3500F94C8C /* ImgCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgCell.swift; sourceTree = "<group>"; };
+		DECA311126004A3500F94C8C /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,25 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		D4B225E72611C5FA0041529C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DECA30FC25FEFBE000F94C8C /* ImageCollectionViewController.swift */,
+				D43AA83B2611CD6800327175 /* ImageDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D4B225E82611C6550041529C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DECA310625FEFBE100F94C8C /* LaunchScreen.storyboard */,
+				DECA30FE25FEFBE000F94C8C /* Main.storyboard */,
+				DECA311126004A3500F94C8C /* ImageCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DECA30EC25FEFBDF00F94C8C = {
 			isa = PBXGroup;
 			children = (
@@ -97,14 +118,12 @@
 		DECA30F725FEFBE000F94C8C /* KakaoSearch */ = {
 			isa = PBXGroup;
 			children = (
+				D4698CA92608B18D0053866A /* Model */,
+				D4B225E72611C5FA0041529C /* Controller */,
+				D4B225E82611C6550041529C /* View */,
 				DECA30F825FEFBE000F94C8C /* AppDelegate.swift */,
 				DECA30FA25FEFBE000F94C8C /* SceneDelegate.swift */,
-				DECA30FC25FEFBE000F94C8C /* ViewController.swift */,
-				DECA30FE25FEFBE000F94C8C /* Main.storyboard */,
-				D4698CA92608B18D0053866A /* Model */,
-				DECA311126004A3500F94C8C /* ImgCell.swift */,
 				DECA310425FEFBE100F94C8C /* Assets.xcassets */,
-				DECA310625FEFBE100F94C8C /* LaunchScreen.storyboard */,
 				DECA310925FEFBE100F94C8C /* Info.plist */,
 				DECA310125FEFBE000F94C8C /* KakaoSearch.xcdatamodeld */,
 				D49ACDD226098D3E0080D9B3 /* APIKey.plist */,
@@ -191,8 +210,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DECA311226004A3600F94C8C /* ImgCell.swift in Sources */,
-				DECA30FD25FEFBE000F94C8C /* ViewController.swift in Sources */,
+				DECA311226004A3600F94C8C /* ImageCollectionViewCell.swift in Sources */,
+				DECA30FD25FEFBE000F94C8C /* ImageCollectionViewController.swift in Sources */,
 				D4698CA72608AEB30053866A /* SearchResult.swift in Sources */,
 				1C986D762601ED9400F76168 /* kakaoAPI.swift in Sources */,
 				D4698CA42608AC460053866A /* KakaoSearcher.swift in Sources */,
@@ -200,6 +219,7 @@
 				DECA30FB25FEFBE000F94C8C /* SceneDelegate.swift in Sources */,
 				DECA310325FEFBE000F94C8C /* KakaoSearch.xcdatamodeld in Sources */,
 				D4698CBD2608EF670053866A /* Constants.swift in Sources */,
+				D43AA83C2611CD6800327175 /* ImageDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

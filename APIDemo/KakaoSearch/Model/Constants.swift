@@ -22,4 +22,6 @@ enum Constants {
         static let apiKey = "KAKAO_API_KEY"
     }
     
+    static let segueMainToDetail = "showDetail"
+    
 }
