@@ -22,7 +22,7 @@ class ImageDetailViewController: UIViewController {
     private func setUpImageView() {
         guard let item = item else { return }
         DispatchQueue.global().async {
-            guard let url = URL(string: item.thumbnailURL),
+            guard let url = URL(string: item.imageURL),
                   let data = try? Data(contentsOf: url),
                   let image = UIImage(data: data) else {
                 return
@@ -34,8 +34,8 @@ class ImageDetailViewController: UIViewController {
     }
     
     @IBAction func shareButton(_ sender: Any) {
-        let docUrl = NSURL(string: item!.docURL)
-        let url = URL(string: item!.thumbnailURL)
+        let docUrl = URL(string: item!.docURL)
+        let url = URL(string: item!.imageURL)
         let data = try? Data(contentsOf: url!)
         let image = UIImage(data: data!)
         let obj: [Any] = [image!, docUrl!]
